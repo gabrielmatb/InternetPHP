@@ -37,6 +37,9 @@
                                 <br>
                                 <button class=" col s4 btn waves-effect waves-light black" type="button" name="botaoCadastrar" 
                                 onclick="JavaScript:location.href='../Formulários/frmCadastrarUsuario.php'">Cadastre-se</button>
+                                <button class="col s4 btn waves-effect waves-light brown darken-4" type="button" name="botaoVoltar" 
+                                onclick="JavaScript:location.href='../Menu/index.html'">Voltar
+                                <i class="material-icons right"> chevron_left </i></button>
                             </div>
                         </form>
                     </div>
