@@ -34,7 +34,6 @@
                 <th>Rede</th>
                 <th>Data Início</th>
                 <th>Data Fim</th>
-                <th>Editar</th>
                 <th>Devolver</th>
             </tr>
             <?php
@@ -46,10 +45,6 @@
                     <td><?php echo $roteadorRede['redeID']; ?></td>
                     <td><?php echo $roteadorRede['dataInicio']; ?></td>
                     <td><?php echo $roteadorRede['dataFim']; ?></td>
-                    <td><a class="btn-floating btn-small waves-effect waves-light orange"
-                        onclick="JavaScript:location.href='Formulários/frmEditarRoteadorRede.php?id=' + 
-                                <?php echo $roteadorRede['id'];?>">
-                        <i class="material-icons">mode_edit</i></a></td>
                     <td><a class="btn-floating btn-small waves-effect waves-light red"
                         onclick="JavaScript:location.href='Formulários/frmDevolverRoteadorRede.php?id=' + 
                                 <?php echo $roteadorRede['id'];?>">
