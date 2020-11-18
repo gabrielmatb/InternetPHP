@@ -17,5 +17,6 @@ div.texto{
 body{
     background-image: url('Imagens/globoConectado.jpg');
     background-size: cover;
+	
     background-repeat: no-repeat;
 }
